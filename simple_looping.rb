@@ -23,6 +23,7 @@ def while_iterator(number_of_times)
   number +=1
   puts "Welcome to Flatiron School's Web Development Course!"
   break if number == number_of_times
+ end
 end
 
 def until_iterator(number_of_times)
