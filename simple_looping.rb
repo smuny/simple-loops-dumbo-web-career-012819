@@ -40,9 +40,9 @@ def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   number = 0
-  for count in (1..)
-  puts number = number + number_of_times
-  number += 1
+  for count in (1..number_of_times) do
+  # puts number = number + number_of_times
+  count += 1
   # puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
