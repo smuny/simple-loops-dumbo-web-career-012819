@@ -42,6 +42,7 @@ def for_iterator(number_of_times)
   number = 0
   for number_of_times in 0 
   puts number = number + number_of_times
+  number += 1
   # puts "Welcome to Flatiron School's Web Development Course!"
   
 end
